@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.tesoem.diana.itics.examen7t11.MOperacionesActivity">
+
+    <Button
+        android:id="@+id/obtnsuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="60dp"
+        android:onClick="suma"
+        android:text="suma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/osuma" />
+
+    <Button
+        android:id="@+id/obtnresta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="48dp"
+        android:onClick="resta"
+        android:text="resta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obtnsuma"
+        tools:text="@string/oresta" />
+
+    <Button
+        android:id="@+id/obtnpotencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="40dp"
+        android:onClick="potencia"
+        android:text="potencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obtnresta"
+        tools:text="@string/opotencia" />
+
+    <Button
+        android:id="@+id/obtnsalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="48dp"
+        android:onClick="salir"
+        android:text="salir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obtnpotencia"
+        tools:text="@string/osalir" />
+</android.support.constraint.ConstraintLayout>

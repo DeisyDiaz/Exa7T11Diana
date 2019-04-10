@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Examen7T11</string>
+    <string name="tesoem">Tecnologico de Estudios Superiores del Oriente de Estado de Mexico</string>
+    <string name="imgtesoem">Imagen tesoem</string>
+    <string name="saludoventana">Saludar en otra ventana</string>
+    <string name="mnombre">Ingresa nombre</string>
+    <string name="name">Name</string>
+    <string name="mbtnsaludo">Saludar Emergente</string>
+    <string name="mopera">Operaciones</string>
+    <string name="osuma">Suma</string>
+    <string name="oresta">Resta</string>
+    <string name="opotencia">Potencia</string>
+    <string name="osalir">Terminar</string>
+    <string name="mval1">Ingrese Numero 1</string>
+    <string name="mval2">Ingrese Numero 2</string>
+    <string name="vcalcular">Calcular</string>
+</resources>
